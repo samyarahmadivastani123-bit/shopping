@@ -1,0 +1,19 @@
+﻿using Domin;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace domin
+{
+    public class Category
+    {
+        public int Id { get; set; }
+        public string Name{ get; set; }
+        public string Picture { get; set; }
+        public List<Prouduct> Prd { get; set; }
+
+
+    }
+}
