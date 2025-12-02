@@ -22,7 +22,10 @@ namespace web.Controllers
         {
             return View();
         }
-
+        public ActionResult sam()
+        {
+            return View();
+        }
         // POST: AccountController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
