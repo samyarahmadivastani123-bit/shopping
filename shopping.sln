@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infra", "infra\infra.csproj", "{0A087A8E-0F09-48D4-A705-B9A8AA6349C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{EA0D175A-5DAC-4FF6-9AAA-C6E18C08A83B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE4267AB-99C9-4D1A-93E7-C1931B1FFCF0} = {DE4267AB-99C9-4D1A-93E7-C1931B1FFCF0}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domin", "domin\domin.csproj", "{41C62636-22B1-BA0D-F68A-689D78ADA735}"
 EndProject

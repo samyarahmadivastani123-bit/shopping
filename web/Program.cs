@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using infra;
 using System;
+using aplication.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // hatman inja ezafeh besheh
 
-
+builder.Services.AddScoped<ICategory, CategoryService>();
 
 var app = builder.Build();
 
